@@ -9,7 +9,7 @@
     function configuration($routeProvider){
         $routeProvider
             .when("/home",{
-                templateUrl: "views/home/home.view.html",
+                templateUrl: "assignment/client/views/home/home.view.html",
                 controller: "HomeController",
                 controllerAs: "model",
                  resolve: {
@@ -17,17 +17,17 @@
                 }
             })
             .when("/register",{
-                templateUrl: "views/users/register.view.html",
+                templateUrl: "assignment/client/views/users/register.view.html",
                 controller: "RegisterController",
                 controllerAs: "model"
             })
             .when("/login",{
-                templateUrl: "views/users/login.view.html",
+                templateUrl: "assignment/client/views/users/login.view.html",
                 controller: "LoginController",
                 controllerAs: "model"
             })
             .when("/profile",{
-                templateUrl: "views/users/profile.view.html",
+                templateUrl: "assignment/client/views/users/profile.view.html",
                 controller: "ProfileController",
                 controllerAs: "model",
                 resolve: {
@@ -35,7 +35,7 @@
                 }
             })
             .when("/admin",{
-                templateUrl: "views/admin/admin.view.html",
+                templateUrl: "assignment/client/views/admin/admin.view.html",
                 controller: "AdminController",
                 controllerAs: "model",
                 resolve:{
@@ -43,12 +43,12 @@
                 }
             })
             .when("/forms",{
-                templateUrl: "views/forms/forms.view.html",
+                templateUrl: "assignment/client/views/forms/forms.view.html",
                 controller: "FormController",
                 controllerAs: "model"
             })
             .when("/form/:formId/fields",{
-                templateUrl: "views/forms/fields.view.html",
+                templateUrl: "assignment/client/views/forms/fields.view.html",
                 controller: "FieldsController",
                 controllerAs: "model",
                 resolve:
