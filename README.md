@@ -1,7 +1,7 @@
 # FormMaker
 A web application that consists of a Website that allow users to create forms and share them on the Web as single pages or embedded in their own Web pages.
 to create,edit,delete forms, users and fields.
-The app is implemented using MEAN Stack Web development.
+The app is implemented using MEAN Stack.
 
 ## Terminologies
 * Developers - Users creating Forms 
